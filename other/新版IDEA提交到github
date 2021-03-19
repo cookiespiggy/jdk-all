@@ -1,0 +1,10 @@
+初始提交
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/cookiespiggy/jdk-all.git
+git push -u origin main
+下次提交
+git add .
+git commit -m "feat: xxx"
+git push -u origin main
