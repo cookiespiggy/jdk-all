@@ -1,0 +1,15 @@
+# https://blog.csdn.net/hjxzb/article/details/84927567
+version: '3' # 默认是几 2 还是3
+services: # 关键字
+  mysql: # 随便写
+    network_mode: "host" # 如果 network_mode: "host"的话，那么容器与主机是不隔离的，与主机共享一个端口 所以下面的 ports: - "33060:3306"是多余的 如果需要使用配置里面的端口映射，则需要去掉network_mode这一栏，默认使用bridge模式
+    environment:
+      MYSQL_ROOT_PASSWORD: "yourpassword"
+      MYSQL_USER: 'test'
+      MYSQL_PASS: 'yourpassword'
+    image: "docker.io/mysql:latest"
+    restart: always
+    volumes:
+      - "./db:/var/lib/mysql"
+      - "./conf/my.cnf:/etc/my.cnf"
+      - "./init:/docker-entrypoint-initdb.d/"
