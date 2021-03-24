@@ -30,7 +30,7 @@ public class Use_IntStream {
                         .filter(i -> (i == 0 || i % 100_000 != 0)));
 
 
-        MutableIntList uniqueSorted = values.distinct().sortThis();
+        MutableIntList uniqueSorted = values1.distinct().sortThis();
 
 
     }

@@ -1,7 +1,7 @@
 https://www.codenong.com/d-whats-wrong-with-small-objects-in-java/
-https://www.infoq.cn/article/xvgzcw312mdatckfmr8b
+https://www.infoq.cn/article/xvgzcw312mdatckfmr8b 陆金所 CAT 优化实践
 https://www.codenong.com/cs106749921/
-https://www.jianshu.com/p/4f3f15f89deb
+https://www.jianshu.com/p/4f3f15f89deb arthas
 # FTP协议
 PASV    告诉服务器，让FTP服务器在指定的数据端口进行监听，被动接受客户端的请求。是默认模式。
 PORT <address>    告诉FTP服务器，客户端监听的端口号是address，FTP服务器采用主动模式连接客户端。
@@ -14,3 +14,9 @@ https://tech.youzan.com/you-zan-shu-ju-ku-lian-jie-chi-xing-neng-you-hua/
 我们得到的信息：
     - 很多系统的优化最后往往是对 DB 的优化，比如索引优化、并发控制
     - 压测时碰到 DB 的性能瓶颈 如何对DB进行压测
+https://www.infoq.cn/article/CWYLgfDwspJhZOGgrc7B?utm_source=related_read_bottom&utm_medium=article es jdk 版本
+http://www.361way.com/win-dynamic-port-timewait/5255.html windows下可用连接调节及time_wait调优
+https://www.cjavapy.com/3/
+https://medium.com/oracledevs/ten-reasons-to-use-eclipse-collections-91593104af9d 理由
+# 以后可以搜Top Ten Reasons to use xxx
+https://blog.csdn.net/baidu_28523317/article/details/104453927 对象头
