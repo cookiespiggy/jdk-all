@@ -12,6 +12,7 @@
         <module>spi-api</module>
         <module>spi-api-impl</module>
         <module>spi-api-main</module>
+        <module>thirdparty-spi-filter</module>
     </modules>
 
     <properties>
