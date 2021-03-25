@@ -6,11 +6,11 @@ public class HelloServiceImpl implements HelloService {
 
     @Override
     public String sayHello(String name, int timeToWait) {
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         return "hello:" + name;
     }
 }
