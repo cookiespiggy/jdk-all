@@ -13,6 +13,10 @@
         <module>spi-api-impl</module>
         <module>spi-api-main</module>
         <module>thirdparty-spi-filter</module>
+        <module>service-api</module>
+        <module>service-provider</module>
+        <module>embedded-zooKeeper</module>
+        <module>service-consumer</module>
     </modules>
 
     <properties>
@@ -78,7 +82,6 @@
 <!--            <artifactId>slf4j-log4j12</artifactId>-->
 <!--            <version>1.7.5</version>-->
 <!--        </dependency>-->
-
 <!--        &lt;!&ndash; json数据化转换 &ndash;&gt;-->
 <!--        <dependency>-->
 <!--            <groupId>com.alibaba</groupId>-->
